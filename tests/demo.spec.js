@@ -50,12 +50,4 @@ test('Test Case 6', async ({ page }) => {
    const done = new MobileApplication(page);
    await done.ClickmobileApp();
    await done.VerifyTestCaseSix();
-
-  // await expect(todoColumn).toBeVisible();
-
-  // await expect(todoColumn.getByRole('heading', { level: 2, name: 'To Do (2)' })).toBeVisible();
-
-  // // Check second task card exists
-  // await expect(todoColumn.getByRole('heading', { level: 3, name: 'Fix navigation bug' })).toBeVisible();
-
 });
